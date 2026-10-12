@@ -1,0 +1,10 @@
+/usr/bin/x86_64-linux-gnu-ld.bfd: Resultados/Manuelly/locadora/main.o: na função "main":
+main.c:(.text+0x21): referência não definida para "CriarLocadora"
+/usr/bin/x86_64-linux-gnu-ld.bfd: main.c:(.text+0x64): referência não definida para "LerCadastroLocadora"
+/usr/bin/x86_64-linux-gnu-ld.bfd: main.c:(.text+0x9d): referência não definida para "LerAluguelLocadora"
+/usr/bin/x86_64-linux-gnu-ld.bfd: main.c:(.text+0xcc): referência não definida para "LerDevolucaoLocadora"
+/usr/bin/x86_64-linux-gnu-ld.bfd: main.c:(.text+0xfb): referência não definida para "OrdenarFilmesLocadora"
+/usr/bin/x86_64-linux-gnu-ld.bfd: main.c:(.text+0x107): referência não definida para "ConsultarEstoqueLocadora"
+/usr/bin/x86_64-linux-gnu-ld.bfd: main.c:(.text+0x144): referência não definida para "ConsultarLucroLocadora"
+/usr/bin/x86_64-linux-gnu-ld.bfd: main.c:(.text+0x150): referência não definida para "DestruirLocadora"
+collect2: error: ld returned 1 exit status
