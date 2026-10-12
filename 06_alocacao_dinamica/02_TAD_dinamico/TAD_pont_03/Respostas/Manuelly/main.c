@@ -11,19 +11,26 @@ int main(){
 
     while(scanf(" %[^\n]\n", operacao) >0){
         //cadastro de filmes
+        //printf("\n\n%s\n\n", operacao);
         if(!strcmp(operacao, "Cadastrar")){
             LerCadastroLocadora(locadora);
+            printf("\n");
         }
         if(!strcmp(operacao, "Estoque")){
             OrdenarFilmesLocadora(locadora);
             ConsultarEstoqueLocadora(locadora);
+            printf("\n");
         }
-        if(!strcmp(operacao, "Alugar")){
+        if(!strcmp(operacao, "Alugar") || !strcmp(operacao, "Alugar ")){
             LerAluguelLocadora(locadora);
+            printf("\n");
         }
-        if(!strcmp(operacao, "Devolver")){
+        if(!strcmp(operacao, "Devolver") || !strcmp(operacao, "Devolver ")){
             LerDevolucaoLocadora(locadora);
+            printf("\n");
         }
     }
+    ConsultarLucroLocadora(locadora);
+    DestruirLocadora(locadora);
     return 0;
 }

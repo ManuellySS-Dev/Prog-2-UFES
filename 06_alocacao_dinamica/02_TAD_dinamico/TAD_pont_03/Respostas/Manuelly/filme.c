@@ -31,7 +31,7 @@ int ObterCodigoFilme (tFilme* filme){
 }
 
 void ImprimirNomeFilme (tFilme* filme){
-    printf("- %s -", filme->nome);
+    printf("%s", filme->nome);
 }
 
 int ObterValorFilme (tFilme* filme){
@@ -54,14 +54,14 @@ int EhMesmoCodigoFilme (tFilme* filme, int codigo){
 }
 
 void AlugarFilme (tFilme* filme){
-    if(filme->qtdEstoque>1){
+    if(filme->qtdEstoque>0){
         filme->qtdAlugada++;
         filme->qtdEstoque--;
     }
 }
 
 void DevolverFilme (tFilme* filme){
-    if(filme->qtdAlugada>1){
+    if(filme->qtdAlugada>0){
         filme->qtdAlugada--;
         filme->qtdEstoque++;
     }
