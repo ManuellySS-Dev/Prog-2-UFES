@@ -1,0 +1,148 @@
+- Arquivo de configuração encontrado!
+ - Arquivos header necessários do professor existem na pasta Includes
+ - Arquivos objetos necessários do professor existem na pasta Gabarito-obj.
+
+#######################################
+ALUNO: Manuelly
+#######################################
+
+CRIANDO O DIRETÓRIO DE RESULTADO PARA Manuelly:
+ - Diretório Resultados/Manuelly criado com sucesso!
+ - Diretório Resultados/Manuelly/main criado com sucesso!
+ - Diretório Resultados/Manuelly/completo criado com sucesso!
+ - Diretório Resultados/Manuelly/aluno criado com sucesso!
+ - Arquivos criados: ok!
+
+CHECKANDO OS ARQUIVOS DO ALUNO:
+ - Arquivo esperado 'Respostas/Manuelly/aluno.c' encontrado!
+ - Arquivo esperado 'Respostas/Manuelly/aluno.h' encontrado!
+ - Arquivo esperado 'Respostas/Manuelly/main.c' encontrado!
+ - Arquivos esperados enviados: Ok!
+
+COPIANDO OS ARQUIVOS PARA A PASTA DE RESULTADO DO ALUNO:
+ - Pasta main:
+ - Copiando os Casos de teste para a pasta Resultados/Manuelly/main
+ - Copiando os Includes/aluno.h do professor para a pasta Resultados/Manuelly/main
+ - Copiando os Includes/*.o do professor para a pasta Resultados/Manuelly/main
+ - Removendo o main.o do professor da pasta Resultados/Manuelly/main
+ - Copiando o Respostas/Manuelly/main.c do aluno para a pasta Resultados/Manuelly/main
+ - Pasta completo:
+ - Copiando os Casos de teste para a pasta Resultados/Manuelly/completo
+ - Copiando os Respostas/Manuelly/aluno.c do aluno para a pasta Resultados/Manuelly/completo
+ - Copiando os Respostas/Manuelly/aluno.h do aluno para a pasta Resultados/Manuelly/completo
+ - Copiando os Respostas/Manuelly/main.c do aluno para a pasta Resultados/Manuelly/completo
+ - Pasta aluno:
+ - Copiando os Casos de teste para a pasta Resultados/Manuelly/aluno
+ - Copiando os Includes/aluno.h do professor para a pasta Resultados/Manuelly/aluno
+ - Copiando os Includes/*.o do professor para a pasta Resultados/Manuelly/aluno
+ - Removendo o aluno.o do professor da pasta Resultados/Manuelly/aluno
+ - Copiando o Respostas/Manuelly/aluno.c do aluno para a pasta Resultados/Manuelly/aluno
+ - Copiando Arquivos Extras do Aluno:
+ - Arquivos copiados: ok!
+
+COMPILANDO OS ARQUIVOS NA PASTA DE RESULTADO DO ALUNO:
+ - Compilação dos arquivos do aluno na pasta main ok!
+ - Arquivo de output gerado: Resultados/Manuelly/main/result_compilation.txt
+ - Compilação dos arquivos do aluno na pasta completo ok!
+ - Arquivo de output gerado: Resultados/Manuelly/completo/result_compilation.txt
+ - Compilação dos arquivos do aluno na pasta aluno ok!
+ - Arquivo de output gerado: Resultados/Manuelly/aluno/result_compilation.txt
+ - Arquivos Compilados: ok!
+
+LINKANDO OS ARQUIVOS COMPILADOS:
+ - Pasta main:
+ - Gerando o binário prog linkando com o(s) arquivo(s) main/*.o
+ - Arquivos Linkados: Ok! Binário prog gerado com sucesso.
+ - Arquivo de output gerado: Resultados/Manuelly/main/result_linking.txt
+ - Pasta completo:
+ - Gerando o binário prog linkando com o(s) arquivo(s) completo/*.o
+ - Arquivos Linkados: Ok! Binário prog gerado com sucesso.
+ - Arquivo de output gerado: Resultados/Manuelly/completo/result_linking.txt
+ - Pasta aluno:
+ - Gerando o binário prog linkando com o(s) arquivo(s) aluno/*.o
+ - Arquivos Linkados: Ok! Binário prog gerado com sucesso.
+ - Arquivo de output gerado: Resultados/Manuelly/aluno/result_linking.txt
+
+EXECUTANDO O VALGRIND EM CADA CASO:
+ - Pasta main / Caso 1:
+ - Arquivo de output gerado: Resultados/Manuelly/main/Casos/1/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 10, frees: 10, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): (soma total) - % (desconto do valgrind) = de pontos.
+ - Pasta main / Caso 2:
+ - Arquivo de output gerado: Resultados/Manuelly/main/Casos/2/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 3, frees: 3, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): (soma total) - % (desconto do valgrind) = de pontos.
+ - Pasta main / Caso 3:
+ - Arquivo de output gerado: Resultados/Manuelly/main/Casos/3/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 22, frees: 22, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): (soma total) - % (desconto do valgrind) = de pontos.
+ - Nota para a pasta main (máximo 3.33) - de - % de 3.33: .
+ -----
+ - Pasta completo / Caso 1:
+ - Arquivo de output gerado: Resultados/Manuelly/completo/Casos/1/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 10, frees: 10, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): (soma total) - % (desconto do valgrind) = de pontos.
+ - Pasta completo / Caso 2:
+ - Arquivo de output gerado: Resultados/Manuelly/completo/Casos/2/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 3, frees: 3, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): (soma total) - % (desconto do valgrind) = de pontos.
+ - Pasta completo / Caso 3:
+ - Arquivo de output gerado: Resultados/Manuelly/completo/Casos/3/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 22, frees: 22, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): (soma total) - % (desconto do valgrind) = de pontos.
+ - Nota para a pasta completo (máximo 3.34) - de - % de 3.34: .
+ -----
+ - Pasta aluno / Caso 1:
+ - Arquivo de output gerado: Resultados/Manuelly/aluno/Casos/1/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 10, frees: 10, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): (soma total) - % (desconto do valgrind) = de pontos.
+ - Pasta aluno / Caso 2:
+ - Arquivo de output gerado: Resultados/Manuelly/aluno/Casos/2/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 3, frees: 3, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): (soma total) - % (desconto do valgrind) = de pontos.
+ - Pasta aluno / Caso 3:
+ - Arquivo de output gerado: Resultados/Manuelly/aluno/Casos/3/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 22, frees: 22, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): (soma total) - % (desconto do valgrind) = de pontos.
+ - Nota para a pasta aluno (máximo 3.33) - de - % de 3.33: .
+ -----
+
+#######################################
+RESULTADOS FINAIS
+#######################################
+
+----------------------------------------------------------------------------
+Aluno: Manuelly
+ - Arquivos Esperados Corretos: 3 de 3
+ - Pastas Compiladas Corretamente: 3 de 3 
+ - Pastas Linkadas Corretamente: 3 de 3
+ - Teste main
+ - Resultados corretos: 3 de 3
+ - Valgrinds corretos: 3 de 3
+ - Nota de Manuelly para o teste main: 
+ - Teste completo
+ - Resultados corretos: 3 de 3
+ - Valgrinds corretos: 3 de 3
+ - Nota de Manuelly para o teste completo: 
+ - Teste aluno
+ - Resultados corretos: 3 de 3
+ - Valgrinds corretos: 3 de 3
+ - Nota de Manuelly para o teste aluno: 
+ - Nota de Manuelly: 0+()+()+()
+ - Nota de Manuelly: 
+
+----------------------------------------------------------------------------
+
+Arquivo CSV Resultado.csv com os resultados finais foi gerado na pasta raíz!
+
+
+
