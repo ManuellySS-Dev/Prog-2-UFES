@@ -1,0 +1,4 @@
+banco.c: In function ‘AbreContaBanco’:
+banco.c:40:9: warning: unused variable ‘i’ [-Wunused-variable]
+   40 |     int i=0;
+      |         ^

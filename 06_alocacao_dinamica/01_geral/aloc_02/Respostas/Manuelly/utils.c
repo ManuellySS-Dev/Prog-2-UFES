@@ -2,16 +2,24 @@
 #include <stdlib.h>
 #include <stdio.h>
 //Nao entendi como alocar a matriz nesse caso com a funcao voltando ** tah dando erro de compilacao vou perguntar ao thiago ou a algum monitor
-int **CriaMatriz(int linhas, int colunas){
-    int (*matriz)[colunas] = malloc(linhas * colunas * sizeof(int));
-    if(matriz == NULL){
-        exit(0);
+int **CriaMatriz(int linhas, int colunas) {
+    int i = 0;
+    int **matriz = (int**) malloc(linhas * sizeof(int*)); 
+    
+    if (matriz == NULL) return NULL; 
+
+    for(i = 0; i < linhas; i++) {
+        matriz[i] = (int*) malloc(colunas * sizeof(int));
     }
-    int ** matrizz = matriz; //tentando passar o ponteiro da matriz para um ponteiro pra ponteiro pra retornar ponteiro pra ponteiro mas nao vaiiiiiii
-    return matrizz;
+    
+    return matriz;
 }
 
 void LiberaMatriz(int **matriz, int linhas){
+    int i=0;
+    for(i = 0; i < linhas; i++) {
+        free(matriz[i]);
+    }
     free(matriz);
 }
 

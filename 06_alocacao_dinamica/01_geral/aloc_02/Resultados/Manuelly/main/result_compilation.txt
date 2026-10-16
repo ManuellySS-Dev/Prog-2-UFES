@@ -1,0 +1,29 @@
+main.c: In function ‘main’:
+main.c:9:12: warning: assignment to ‘int *’ from incompatible pointer type ‘int **’ [-Wincompatible-pointer-types]
+    9 |     matriz =CriaMatriz(linhas, colunas);
+      |            ^
+main.c:10:14: warning: passing argument 1 of ‘LeMatriz’ from incompatible pointer type [-Wincompatible-pointer-types]
+   10 |     LeMatriz(matriz, linhas, colunas);
+      |              ^~~~~~
+      |              |
+      |              int *
+In file included from main.c:1:
+utils.h:28:21: note: expected ‘int **’ but argument is of type ‘int *’
+   28 | void LeMatriz(int **matriz, int linhas, int colunas);
+      |               ~~~~~~^~~~~~
+main.c:11:29: warning: passing argument 1 of ‘ImprimeMatrizTransposta’ from incompatible pointer type [-Wincompatible-pointer-types]
+   11 |     ImprimeMatrizTransposta(matriz,linhas,colunas);
+      |                             ^~~~~~
+      |                             |
+      |                             int *
+utils.h:37:36: note: expected ‘int **’ but argument is of type ‘int *’
+   37 | void ImprimeMatrizTransposta(int **matriz, int linhas, int colunas);
+      |                              ~~~~~~^~~~~~
+main.c:12:18: warning: passing argument 1 of ‘LiberaMatriz’ from incompatible pointer type [-Wincompatible-pointer-types]
+   12 |     LiberaMatriz(matriz, linhas);
+      |                  ^~~~~~
+      |                  |
+      |                  int *
+utils.h:19:25: note: expected ‘int **’ but argument is of type ‘int *’
+   19 | void LiberaMatriz(int **matriz, int linhas);
+      |                   ~~~~~~^~~~~~
