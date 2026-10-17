@@ -1,0 +1,4 @@
+matrix_utils.c: In function ‘MatrixMultiply’:
+matrix_utils.c:106:19: warning: unused variable ‘m’ [-Wunused-variable]
+  106 |     int i=0, j=0, m=0, n=0;
+      |                   ^

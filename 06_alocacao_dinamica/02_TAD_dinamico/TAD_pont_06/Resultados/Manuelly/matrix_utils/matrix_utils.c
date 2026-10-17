@@ -3,7 +3,7 @@
 #include "matrix_utils.h"
 
 tMatrix* MatrixCreate(int rows, int cols){
-    tMatrix * matrix = (tMatrix*) calloc(1, sizeof(tMatrix*));
+    tMatrix * matrix = (tMatrix*) calloc(1, sizeof(tMatrix));
     int i = 0;
     matrix->data = (int**) malloc(rows * sizeof(int*)); 
     
@@ -40,10 +40,16 @@ void MatrixRead(tMatrix* matrix){
 void MatrixPrint(tMatrix* matrix){
     int i=0, j=0;
     for(i=0; i<matrix->rows; i++){
+        printf("|");
         for(j=0; j<matrix->cols; j++){
-            printf(" %d", matrix->data[i][j]);
+            printf("%d", matrix->data[i][j]);
+            if(j<matrix->cols-1){
+                printf(" ");
+            }
         }
+        printf("|\n");
     }
+    printf("\n");
 }
 
 int PossibleMatrixSum(tMatrix* matrix1, tMatrix* matrix2){
@@ -63,7 +69,7 @@ int PossibleMatrixSub(tMatrix* matrix1, tMatrix* matrix2){
 }
 
 int PossibleMatrixMultiply(tMatrix* matrix1, tMatrix* matrix2){
-    if(matrix1->cols == matrix2->rows){
+    if(matrix1->rows == matrix2->cols){
         return 1;
     }else{
         return 0;
@@ -96,11 +102,14 @@ tMatrix* MatrixSub(tMatrix* matrix1, tMatrix* matrix2){
 
 tMatrix* MatrixMultiply(tMatrix* matrix1, tMatrix* matrix2){
     tMatrix * Mult;
-    Mult = MatrixCreate(matrix1->rows, matrix1->cols);
-    int i=0, j=0;
+    Mult = MatrixCreate(matrix1->rows, matrix2->cols);
+    int i=0, j=0, m=0, n=0;
     for(i=0; i<matrix1->rows; i++){
-        for(j=0; j<matrix1->cols; j++){
-            Mult->data[i][j] = matrix1->data[i][j] * matrix2->data[i][j];
+        for(j=0; j<matrix2->cols; j++){
+                Mult->data[i][j] =0;
+                for(n=0; n<matrix2->rows; n++){
+                    Mult->data[i][j] += matrix1->data[i][n] * matrix2->data[n][j];
+                }
         }
     }
     return Mult;
@@ -110,8 +119,8 @@ tMatrix* TransposeMatrix(tMatrix* matrix){
     tMatrix * Trans;
     Trans = MatrixCreate(matrix->cols, matrix->rows);
     int i=0, j=0;
-    for(i=0; i<matrix->rows; i++){
-        for(j=0; j<matrix->cols; j++){
+    for(i=0; i<matrix->cols; i++){
+        for(j=0; j<matrix->rows; j++){
             Trans->data[i][j] = matrix->data[j][i];
         }
     }
