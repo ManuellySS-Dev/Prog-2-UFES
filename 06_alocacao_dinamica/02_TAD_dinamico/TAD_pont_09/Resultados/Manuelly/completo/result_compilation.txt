@@ -1,0 +1,7 @@
+main.c: In function ‘main’:
+main.c:10:35: warning: unused variable ‘qtd_funcionarios’ [-Wunused-variable]
+   10 |     int qtd_empresas=0, i=0, j=0, qtd_funcionarios=0;
+      |                                   ^~~~~~~~~~~~~~~~
+main.c:10:30: warning: unused variable ‘j’ [-Wunused-variable]
+   10 |     int qtd_empresas=0, i=0, j=0, qtd_funcionarios=0;
+      |                              ^
