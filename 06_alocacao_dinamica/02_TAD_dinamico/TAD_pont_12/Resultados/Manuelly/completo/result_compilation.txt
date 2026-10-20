@@ -1,0 +1,4 @@
+array.c: In function ‘BuscaBinariaArray’:
+array.c:50:70: warning: variable ‘limite_final’ set but not used [-Wunused-but-set-variable]
+   50 |     int i=0, indice_elemento=0, indice_tentado=0, limite_anterior=0, limite_final=0;
+      |                                                                      ^~~~~~~~~~~~
