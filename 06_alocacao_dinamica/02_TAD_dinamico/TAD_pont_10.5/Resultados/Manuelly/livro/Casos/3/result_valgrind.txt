@@ -1,0 +1,15 @@
+==8703== Memcheck, a memory error detector
+==8703== Copyright (C) 2002-2024, and GNU GPL'd, by Julian Seward et al.
+==8703== Using Valgrind-3.26.0 and LibVEX; rerun with -h for copyright info
+==8703== Command: Resultados/Manuelly/livro/prog Resultados/Manuelly/livro/Casos/3
+==8703== Parent PID: 8702
+==8703== 
+==8703== 
+==8703== HEAP SUMMARY:
+==8703==     in use at exit: 0 bytes in 0 blocks
+==8703==   total heap usage: 10 allocs, 10 frees, 8,696 bytes allocated
+==8703== 
+==8703== All heap blocks were freed -- no leaks are possible
+==8703== 
+==8703== For lists of detected and suppressed errors, rerun with: -s
+==8703== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)

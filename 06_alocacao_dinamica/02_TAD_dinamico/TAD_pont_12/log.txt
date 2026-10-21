@@ -104,9 +104,9 @@ EXECUTANDO O VALGRIND EM CADA CASO:
  - Pasta completo / Caso 4:
  - Arquivo de output gerado: Resultados/Manuelly/completo/Casos/4/result_valgrind.txt.
  - Valgrind: Ok! allocs: 4, frees: 4, errors: 0 | Desconto do valgrind: 0.0%
- - Resultado para o saida.txt: Incorreto! Peso: 0.0
- - Nota para o Caso (soma dos pesos): 0 (soma total) - 0% (desconto do valgrind) = 0 de 10 pontos.
- - Nota para a pasta completo (máximo 3.33) - 30.00 de 40 - 75.00% de 3.33: 2.49.
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Nota para a pasta completo (máximo 3.33) - 40.00 de 40 - 100.00% de 3.33: 3.33.
  -----
  - Pasta array / Caso 1:
  - Arquivo de output gerado: Resultados/Manuelly/array/Casos/1/result_valgrind.txt.
@@ -126,9 +126,9 @@ EXECUTANDO O VALGRIND EM CADA CASO:
  - Pasta array / Caso 4:
  - Arquivo de output gerado: Resultados/Manuelly/array/Casos/4/result_valgrind.txt.
  - Valgrind: Ok! allocs: 4, frees: 4, errors: 0 | Desconto do valgrind: 0.0%
- - Resultado para o saida.txt: Incorreto! Peso: 0.0
- - Nota para o Caso (soma dos pesos): 0 (soma total) - 0% (desconto do valgrind) = 0 de 10 pontos.
- - Nota para a pasta array (máximo 3.34) - 30.00 de 40 - 75.00% de 3.34: 2.50.
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Nota para a pasta array (máximo 3.34) - 40.00 de 40 - 100.00% de 3.34: 3.34.
  -----
 
 #######################################
@@ -145,15 +145,15 @@ Aluno: Manuelly
  - Valgrinds corretos: 4 de 4
  - Nota de Manuelly para o teste main: 3.33
  - Teste completo
- - Resultados corretos: 3 de 4
+ - Resultados corretos: 4 de 4
  - Valgrinds corretos: 4 de 4
- - Nota de Manuelly para o teste completo: 2.49
+ - Nota de Manuelly para o teste completo: 3.33
  - Teste array
- - Resultados corretos: 3 de 4
+ - Resultados corretos: 4 de 4
  - Valgrinds corretos: 4 de 4
- - Nota de Manuelly para o teste array: 2.50
- - Nota de Manuelly: 0+(2.50)+(3.33)+(2.49)
- - Nota de Manuelly: 8.32
+ - Nota de Manuelly para o teste array: 3.34
+ - Nota de Manuelly: 0+(3.34)+(3.33)+(3.33)
+ - Nota de Manuelly: 10.00
 
 ----------------------------------------------------------------------------
 

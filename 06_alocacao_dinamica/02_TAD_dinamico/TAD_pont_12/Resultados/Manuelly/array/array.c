@@ -47,25 +47,28 @@ void OrdenarArray(Array *array){
 }
 
 int BuscaBinariaArray(Array *array, int elementoBuscado){
-    int i=0, indice_elemento=0, indice_tentado=0, limite_anterior=0, limite_final=0;
-    limite_final = array->tamanho;
-    indice_tentado = (array->tamanho/ 2);
+    int limite_anterior = 0;
+    int limite_final = array->tamanho - 1; 
+    int indice_tentado;
 
-    while(1){
-        if(i>30){
-            return -1;
+    while (limite_anterior <= limite_final) {
+        // Calcula o ponto médio correto entre os dois limites atuais
+        indice_tentado = limite_anterior + (limite_final - limite_anterior) / 2;
+
+
+        if (array->data[indice_tentado] == elementoBuscado) {
+            return indice_tentado; // Achou! Retorna o índice
+        } 
+        else if (array->data[indice_tentado] > elementoBuscado) {
+            // O elemento buscado é menor, então descartamos a metade direita
+            limite_final = indice_tentado - 1;
+        } 
+        else {
+            // O elemento buscado é maior, então descartamos a metade esquerda
+            limite_anterior = indice_tentado + 1;
         }
-        //printf("%d\n", indice_tentado);
-        if(array->data[indice_tentado] == elementoBuscado){
-            indice_elemento = indice_tentado;
-            return indice_elemento;
-        }else if (array->data[indice_tentado] < elementoBuscado){
-            limite_anterior = indice_tentado;
-            indice_tentado = (limite_anterior + (indice_tentado /2));
-        }else if(array->data[indice_tentado] > elementoBuscado){
-            indice_tentado = (indice_tentado /2);
-            limite_final = indice_tentado;
-        }
-        i++;
     }
+
+    // Se o loop terminar e não achou, o elemento não está no array
+    return -1;
 }
