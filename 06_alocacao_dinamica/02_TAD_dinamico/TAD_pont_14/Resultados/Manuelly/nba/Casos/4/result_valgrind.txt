@@ -1,0 +1,15 @@
+==21108== Memcheck, a memory error detector
+==21108== Copyright (C) 2002-2024, and GNU GPL'd, by Julian Seward et al.
+==21108== Using Valgrind-3.26.0 and LibVEX; rerun with -h for copyright info
+==21108== Command: Resultados/Manuelly/nba/prog Resultados/Manuelly/nba/Casos/4
+==21108== Parent PID: 21107
+==21108== 
+==21108== 
+==21108== HEAP SUMMARY:
+==21108==     in use at exit: 0 bytes in 0 blocks
+==21108==   total heap usage: 32 allocs, 32 frees, 9,550 bytes allocated
+==21108== 
+==21108== All heap blocks were freed -- no leaks are possible
+==21108== 
+==21108== For lists of detected and suppressed errors, rerun with: -s
+==21108== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)

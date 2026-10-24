@@ -1,0 +1,8 @@
+Dragao Mestre Dragao Dourado
+Dragao Dourado Dragao Prateado
+Quantidade de Cartas: 3
+Quantidade de descartadas: 0
+Quantidade de lutas: 4
+Lutas que foram desempatadas: 2
+Carta mais vitoriosa: Dragao Prateado
+Luta com Maior Diferença: 2

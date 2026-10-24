@@ -1,0 +1,7 @@
+nba.c: In function ‘RodaNBA’:
+nba.c:16:28: warning: unused variable ‘num_partidas’ [-Wunused-variable]
+   16 |     int num_franquias_l=0, num_partidas=0, i=0;
+      |                            ^~~~~~~~~~~~
+nba.c:16:9: warning: unused variable ‘num_franquias_l’ [-Wunused-variable]
+   16 |     int num_franquias_l=0, num_partidas=0, i=0;
+      |         ^~~~~~~~~~~~~~~
