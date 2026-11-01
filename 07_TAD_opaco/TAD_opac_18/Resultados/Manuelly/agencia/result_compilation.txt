@@ -1,0 +1,4 @@
+agencia.c: In function ‘LeOperacoes’:
+agencia.c:42:61: warning: unused variable ‘j’ [-Wunused-variable]
+   42 |     int qtd_c=0, id=0, valido=0, repetido=0, i=0, qtd_op=0, j=0;
+      |                                                             ^

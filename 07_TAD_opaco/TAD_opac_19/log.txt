@@ -1,0 +1,274 @@
+- Arquivo de configuração encontrado!
+ - Arquivos header necessários do professor existem na pasta Includes
+ - Arquivos objetos necessários do professor existem na pasta Gabarito-obj.
+
+#######################################
+ALUNO: Manuelly
+#######################################
+
+CRIANDO O DIRETÓRIO DE RESULTADO PARA Manuelly:
+ - Diretório Resultados/Manuelly criado com sucesso!
+ - Diretório Resultados/Manuelly/main criado com sucesso!
+ - Diretório Resultados/Manuelly/completo criado com sucesso!
+ - Diretório Resultados/Manuelly/missil criado com sucesso!
+ - Diretório Resultados/Manuelly/defesa criado com sucesso!
+ - Diretório Resultados/Manuelly/cidade criado com sucesso!
+ - Arquivos criados: ok!
+
+CHECKANDO OS ARQUIVOS DO ALUNO:
+ - Arquivo esperado 'Respostas/Manuelly/cidade.c' encontrado!
+ - Arquivo esperado 'Respostas/Manuelly/cidade.h' encontrado!
+ - Arquivo esperado 'Respostas/Manuelly/defesa.c' encontrado!
+ - Arquivo esperado 'Respostas/Manuelly/defesa.h' encontrado!
+ - Arquivo esperado 'Respostas/Manuelly/main.c' encontrado!
+ - Arquivo esperado 'Respostas/Manuelly/missil.c' encontrado!
+ - Arquivo esperado 'Respostas/Manuelly/missil.h' encontrado!
+ - Arquivos esperados enviados: Ok!
+
+COPIANDO OS ARQUIVOS PARA A PASTA DE RESULTADO DO ALUNO:
+ - Pasta main:
+ - Copiando os Casos de teste para a pasta Resultados/Manuelly/main
+ - Copiando os Includes/cidade.h Includes/defesa.h Includes/missil.h do professor para a pasta Resultados/Manuelly/main
+ - Copiando os Includes/*.o do professor para a pasta Resultados/Manuelly/main
+ - Removendo o main.o do professor da pasta Resultados/Manuelly/main
+ - Copiando o Respostas/Manuelly/main.c do aluno para a pasta Resultados/Manuelly/main
+ - Pasta completo:
+ - Copiando os Casos de teste para a pasta Resultados/Manuelly/completo
+ - Copiando os Respostas/Manuelly/cidade.c do aluno para a pasta Resultados/Manuelly/completo
+ - Copiando os Respostas/Manuelly/cidade.h do aluno para a pasta Resultados/Manuelly/completo
+ - Copiando os Respostas/Manuelly/defesa.c do aluno para a pasta Resultados/Manuelly/completo
+ - Copiando os Respostas/Manuelly/defesa.h do aluno para a pasta Resultados/Manuelly/completo
+ - Copiando os Respostas/Manuelly/main.c do aluno para a pasta Resultados/Manuelly/completo
+ - Copiando os Respostas/Manuelly/missil.c do aluno para a pasta Resultados/Manuelly/completo
+ - Copiando os Respostas/Manuelly/missil.h do aluno para a pasta Resultados/Manuelly/completo
+ - Pasta missil:
+ - Copiando os Casos de teste para a pasta Resultados/Manuelly/missil
+ - Copiando os Includes/cidade.h Includes/defesa.h Includes/missil.h do professor para a pasta Resultados/Manuelly/missil
+ - Copiando os Includes/*.o do professor para a pasta Resultados/Manuelly/missil
+ - Removendo o missil.o do professor da pasta Resultados/Manuelly/missil
+ - Copiando o Respostas/Manuelly/missil.c do aluno para a pasta Resultados/Manuelly/missil
+ - Pasta defesa:
+ - Copiando os Casos de teste para a pasta Resultados/Manuelly/defesa
+ - Copiando os Includes/cidade.h Includes/defesa.h Includes/missil.h do professor para a pasta Resultados/Manuelly/defesa
+ - Copiando os Includes/*.o do professor para a pasta Resultados/Manuelly/defesa
+ - Removendo o defesa.o do professor da pasta Resultados/Manuelly/defesa
+ - Copiando o Respostas/Manuelly/defesa.c do aluno para a pasta Resultados/Manuelly/defesa
+ - Pasta cidade:
+ - Copiando os Casos de teste para a pasta Resultados/Manuelly/cidade
+ - Copiando os Includes/cidade.h Includes/defesa.h Includes/missil.h do professor para a pasta Resultados/Manuelly/cidade
+ - Copiando os Includes/*.o do professor para a pasta Resultados/Manuelly/cidade
+ - Removendo o cidade.o do professor da pasta Resultados/Manuelly/cidade
+ - Copiando o Respostas/Manuelly/cidade.c do aluno para a pasta Resultados/Manuelly/cidade
+ - Copiando Arquivos Extras do Aluno:
+ - Arquivos copiados: ok!
+
+COMPILANDO OS ARQUIVOS NA PASTA DE RESULTADO DO ALUNO:
+ - Compilação dos arquivos do aluno na pasta main ok!
+ - Arquivo de output gerado: Resultados/Manuelly/main/result_compilation.txt
+ - Compilação dos arquivos do aluno na pasta completo ok!
+ - Arquivo de output gerado: Resultados/Manuelly/completo/result_compilation.txt
+ - Compilação dos arquivos do aluno na pasta missil ok!
+ - Arquivo de output gerado: Resultados/Manuelly/missil/result_compilation.txt
+ - Compilação dos arquivos do aluno na pasta defesa ok!
+ - Arquivo de output gerado: Resultados/Manuelly/defesa/result_compilation.txt
+ - Compilação dos arquivos do aluno na pasta cidade ok!
+ - Arquivo de output gerado: Resultados/Manuelly/cidade/result_compilation.txt
+ - Arquivos Compilados: ok!
+
+LINKANDO OS ARQUIVOS COMPILADOS:
+ - Pasta main:
+ - Gerando o binário prog linkando com o(s) arquivo(s) main/*.o
+ - Arquivos Linkados: Ok! Binário prog gerado com sucesso.
+ - Arquivo de output gerado: Resultados/Manuelly/main/result_linking.txt
+ - Pasta completo:
+ - Gerando o binário prog linkando com o(s) arquivo(s) completo/*.o
+ - Arquivos Linkados: Ok! Binário prog gerado com sucesso.
+ - Arquivo de output gerado: Resultados/Manuelly/completo/result_linking.txt
+ - Pasta missil:
+ - Gerando o binário prog linkando com o(s) arquivo(s) missil/*.o
+ - Arquivos Linkados: Ok! Binário prog gerado com sucesso.
+ - Arquivo de output gerado: Resultados/Manuelly/missil/result_linking.txt
+ - Pasta defesa:
+ - Gerando o binário prog linkando com o(s) arquivo(s) defesa/*.o
+ - Arquivos Linkados: Ok! Binário prog gerado com sucesso.
+ - Arquivo de output gerado: Resultados/Manuelly/defesa/result_linking.txt
+ - Pasta cidade:
+ - Gerando o binário prog linkando com o(s) arquivo(s) cidade/*.o
+ - Arquivos Linkados: Ok! Binário prog gerado com sucesso.
+ - Arquivo de output gerado: Resultados/Manuelly/cidade/result_linking.txt
+
+EXECUTANDO O VALGRIND EM CADA CASO:
+ - Pasta main / Caso 1:
+ - Arquivo de output gerado: Resultados/Manuelly/main/Casos/1/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 23, frees: 23, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Pasta main / Caso 2:
+ - Arquivo de output gerado: Resultados/Manuelly/main/Casos/2/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 29, frees: 29, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Pasta main / Caso 3:
+ - Arquivo de output gerado: Resultados/Manuelly/main/Casos/3/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 44, frees: 44, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Pasta main / Caso 4:
+ - Arquivo de output gerado: Resultados/Manuelly/main/Casos/4/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 44, frees: 44, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Pasta main / Caso 5:
+ - Arquivo de output gerado: Resultados/Manuelly/main/Casos/5/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 47, frees: 47, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Nota para a pasta main (máximo 2.00) - 50.00 de 50 - 100.00% de 2.00: 2.00.
+ -----
+ - Pasta completo / Caso 1:
+ - Arquivo de output gerado: Resultados/Manuelly/completo/Casos/1/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 11, frees: 11, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Pasta completo / Caso 2:
+ - Arquivo de output gerado: Resultados/Manuelly/completo/Casos/2/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 13, frees: 13, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Pasta completo / Caso 3:
+ - Arquivo de output gerado: Resultados/Manuelly/completo/Casos/3/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 18, frees: 18, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Pasta completo / Caso 4:
+ - Arquivo de output gerado: Resultados/Manuelly/completo/Casos/4/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 18, frees: 18, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Pasta completo / Caso 5:
+ - Arquivo de output gerado: Resultados/Manuelly/completo/Casos/5/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 19, frees: 19, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Nota para a pasta completo (máximo 2.00) - 50.00 de 50 - 100.00% de 2.00: 2.00.
+ -----
+ - Pasta missil / Caso 1:
+ - Arquivo de output gerado: Resultados/Manuelly/missil/Casos/1/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 15, frees: 15, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Pasta missil / Caso 2:
+ - Arquivo de output gerado: Resultados/Manuelly/missil/Casos/2/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 19, frees: 19, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Pasta missil / Caso 3:
+ - Arquivo de output gerado: Resultados/Manuelly/missil/Casos/3/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 26, frees: 26, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Pasta missil / Caso 4:
+ - Arquivo de output gerado: Resultados/Manuelly/missil/Casos/4/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 26, frees: 26, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Pasta missil / Caso 5:
+ - Arquivo de output gerado: Resultados/Manuelly/missil/Casos/5/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 27, frees: 27, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Nota para a pasta missil (máximo 2.00) - 50.00 de 50 - 100.00% de 2.00: 2.00.
+ -----
+ - Pasta defesa / Caso 1:
+ - Arquivo de output gerado: Resultados/Manuelly/defesa/Casos/1/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 19, frees: 19, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Pasta defesa / Caso 2:
+ - Arquivo de output gerado: Resultados/Manuelly/defesa/Casos/2/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 23, frees: 23, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Pasta defesa / Caso 3:
+ - Arquivo de output gerado: Resultados/Manuelly/defesa/Casos/3/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 36, frees: 36, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Pasta defesa / Caso 4:
+ - Arquivo de output gerado: Resultados/Manuelly/defesa/Casos/4/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 36, frees: 36, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Pasta defesa / Caso 5:
+ - Arquivo de output gerado: Resultados/Manuelly/defesa/Casos/5/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 39, frees: 39, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Nota para a pasta defesa (máximo 2.00) - 50.00 de 50 - 100.00% de 2.00: 2.00.
+ -----
+ - Pasta cidade / Caso 1:
+ - Arquivo de output gerado: Resultados/Manuelly/cidade/Casos/1/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 23, frees: 23, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Pasta cidade / Caso 2:
+ - Arquivo de output gerado: Resultados/Manuelly/cidade/Casos/2/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 29, frees: 29, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Pasta cidade / Caso 3:
+ - Arquivo de output gerado: Resultados/Manuelly/cidade/Casos/3/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 44, frees: 44, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Pasta cidade / Caso 4:
+ - Arquivo de output gerado: Resultados/Manuelly/cidade/Casos/4/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 44, frees: 44, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Pasta cidade / Caso 5:
+ - Arquivo de output gerado: Resultados/Manuelly/cidade/Casos/5/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 47, frees: 47, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Nota para a pasta cidade (máximo 2.00) - 50.00 de 50 - 100.00% de 2.00: 2.00.
+ -----
+
+#######################################
+RESULTADOS FINAIS
+#######################################
+
+----------------------------------------------------------------------------
+Aluno: Manuelly
+ - Arquivos Esperados Corretos: 7 de 7
+ - Pastas Compiladas Corretamente: 5 de 5 
+ - Pastas Linkadas Corretamente: 5 de 5
+ - Teste main
+ - Resultados corretos: 5 de 5
+ - Valgrinds corretos: 5 de 5
+ - Nota de Manuelly para o teste main: 2.00
+ - Teste completo
+ - Resultados corretos: 5 de 5
+ - Valgrinds corretos: 5 de 5
+ - Nota de Manuelly para o teste completo: 2.00
+ - Teste missil
+ - Resultados corretos: 5 de 5
+ - Valgrinds corretos: 5 de 5
+ - Nota de Manuelly para o teste missil: 2.00
+ - Teste defesa
+ - Resultados corretos: 5 de 5
+ - Valgrinds corretos: 5 de 5
+ - Nota de Manuelly para o teste defesa: 2.00
+ - Teste cidade
+ - Resultados corretos: 5 de 5
+ - Valgrinds corretos: 5 de 5
+ - Nota de Manuelly para o teste cidade: 2.00
+ - Nota de Manuelly: 0+(2.00)+(2.00)+(2.00)+(2.00)+(2.00)
+ - Nota de Manuelly: 10.00
+
+----------------------------------------------------------------------------
+
+Arquivo CSV Resultado.csv com os resultados finais foi gerado na pasta raíz!
+
+
+

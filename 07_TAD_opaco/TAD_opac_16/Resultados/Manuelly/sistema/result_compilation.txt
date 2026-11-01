@@ -1,0 +1,23 @@
+sistema.c: In function ‘LeSistema’:
+sistema.c:25:108: warning: unused variable ‘caracter’ [-Wunused-variable]
+   25 |     char string[40], dia_semana_e[2], data_e[13], horario_e[7], dia_semana_s[2], data_s[13], horario_s[7], caracter;
+      |                                                                                                            ^~~~~~~~
+sistema.c:25:65: warning: unused variable ‘dia_semana_s’ [-Wunused-variable]
+   25 |     char string[40], dia_semana_e[2], data_e[13], horario_e[7], dia_semana_s[2], data_s[13], horario_s[7], caracter;
+      |                                                                 ^~~~~~~~~~~~
+sistema.c:24:25: warning: unused variable ‘controle’ [-Wunused-variable]
+   24 |     int proximo=0, i=0, controle=0;
+      |                         ^~~~~~~~
+sistema.c:24:20: warning: unused variable ‘i’ [-Wunused-variable]
+   24 |     int proximo=0, i=0, controle=0;
+      |                    ^
+sistema.c:24:9: warning: unused variable ‘proximo’ [-Wunused-variable]
+   24 |     int proximo=0, i=0, controle=0;
+      |         ^~~~~~~
+sistema.c: In function ‘CalculaPrecoTiquete’:
+sistema.c:48:59: warning: unused variable ‘horas_primeiro_dia’ [-Wunused-variable]
+   48 |     float copia_valor=0, arredonda=0, horas_ultimo_dia=0, horas_primeiro_dia=0;
+      |                                                           ^~~~~~~~~~~~~~~~~~
+sistema.c:48:39: warning: unused variable ‘horas_ultimo_dia’ [-Wunused-variable]
+   48 |     float copia_valor=0, arredonda=0, horas_ultimo_dia=0, horas_primeiro_dia=0;
+      |                                       ^~~~~~~~~~~~~~~~

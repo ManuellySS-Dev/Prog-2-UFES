@@ -1,0 +1,7 @@
+defesa.c: In function ‘VerificaSeDentroArea’:
+defesa.c:38:24: warning: unused variable ‘lado’ [-Wunused-variable]
+   38 |     float distancia=0, lado=0;
+      |                        ^~~~
+defesa.c:54:1: warning: control reaches end of non-void function [-Wreturn-type]
+   54 | }
+      | ^

@@ -1,0 +1,4 @@
+cidade.c: In function ‘ImprimeDados’:
+cidade.c:79:11: warning: unused variable ‘dano_possivel’ [-Wunused-variable]
+   79 |     float dano_possivel=0;
+      |           ^~~~~~~~~~~~~

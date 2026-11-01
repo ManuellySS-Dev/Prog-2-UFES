@@ -4,7 +4,7 @@
 //Nao entendi como alocar a matriz nesse caso com a funcao voltando ** tah dando erro de compilacao vou perguntar ao thiago ou a algum monitor
 int **CriaMatriz(int linhas, int colunas) {
     int i = 0;
-    int **matriz = (int**) malloc(linhas * sizeof(int*)); 
+    int ** matriz = (int**) malloc(linhas * sizeof(int*)); 
     
     if (matriz == NULL) return NULL; 
 

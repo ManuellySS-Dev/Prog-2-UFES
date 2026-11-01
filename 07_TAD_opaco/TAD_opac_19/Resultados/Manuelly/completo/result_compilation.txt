@@ -1,0 +1,11 @@
+cidade.c: In function ‘ImprimeDados’:
+cidade.c:79:11: warning: unused variable ‘dano_possivel’ [-Wunused-variable]
+   79 |     float dano_possivel=0;
+      |           ^~~~~~~~~~~~~
+defesa.c: In function ‘VerificaSeDentroArea’:
+defesa.c:38:24: warning: unused variable ‘lado’ [-Wunused-variable]
+   38 |     float distancia=0, lado=0;
+      |                        ^~~~
+defesa.c:54:1: warning: control reaches end of non-void function [-Wreturn-type]
+   54 | }
+      | ^

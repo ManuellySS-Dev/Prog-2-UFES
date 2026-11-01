@@ -1,0 +1,4 @@
+data.c: In function ‘CalculaHorasEntreDatas’:
+data.c:202:30: warning: unused variable ‘controle’ [-Wunused-variable]
+  202 |     int diferenca_minutos=0, controle=0;
+      |                              ^~~~~~~~

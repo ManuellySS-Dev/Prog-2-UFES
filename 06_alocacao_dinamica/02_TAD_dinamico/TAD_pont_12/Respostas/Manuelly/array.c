@@ -55,10 +55,10 @@ int BuscaBinariaArray(Array *array, int elementoBuscado){
         indice_tentado = limite_anterior + (limite_final - limite_anterior) / 2;
         if(array->data[indice_tentado] == elementoBuscado){
             return indice_tentado;
-        } 
+        }
         else if(array->data[indice_tentado] > elementoBuscado){
             limite_final = indice_tentado - 1;
-        } 
+        }
         else if(array->data[indice_tentado] < elementoBuscado){
             limite_anterior = indice_tentado + 1;
         }
