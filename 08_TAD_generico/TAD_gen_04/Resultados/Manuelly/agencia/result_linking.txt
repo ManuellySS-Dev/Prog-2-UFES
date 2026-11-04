@@ -1,0 +1,11 @@
+/usr/bin/x86_64-linux-gnu-ld.bfd: Resultados/Manuelly/agencia/banco.o: na função "DestroiBanco":
+banco.c:(.text+0x6d): referência não definida para "DestroiAgencia"
+/usr/bin/x86_64-linux-gnu-ld.bfd: Resultados/Manuelly/agencia/banco.o: na função "ImprimeRelatorioBanco":
+banco.c:(.text+0x13c): referência não definida para "ImprimeDadosAgencia"
+/usr/bin/x86_64-linux-gnu-ld.bfd: Resultados/Manuelly/agencia/banco.o: na função "InsereContaBanco":
+banco.c:(.text+0x1a3): referência não definida para "ComparaAgencia"
+/usr/bin/x86_64-linux-gnu-ld.bfd: banco.c:(.text+0x1ba): referência não definida para "AdicionaConta"
+/usr/bin/x86_64-linux-gnu-ld.bfd: Resultados/Manuelly/agencia/main.o: na função "main":
+main.c:(.text+0x5e): referência não definida para "CriaAgencia"
+/usr/bin/x86_64-linux-gnu-ld.bfd: main.c:(.text+0x6e): referência não definida para "LeAgencia"
+collect2: error: ld returned 1 exit status

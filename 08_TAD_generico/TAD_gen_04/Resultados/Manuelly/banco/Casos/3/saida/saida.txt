@@ -1,0 +1,1 @@
+valgrind: Resultados/Manuelly/banco/prog: No such file or directory
