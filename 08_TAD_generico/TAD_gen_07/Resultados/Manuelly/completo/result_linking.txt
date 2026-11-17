@@ -1,0 +1,5 @@
+/usr/bin/x86_64-linux-gnu-ld.bfd: Resultados/Manuelly/completo/main.o: na função "main":
+main.c:(.text+0x53): referência não definida para "CalcularHistograma"
+/usr/bin/x86_64-linux-gnu-ld.bfd: main.c:(.text+0x63): referência não definida para "MostrarHistograma"
+/usr/bin/x86_64-linux-gnu-ld.bfd: main.c:(.text+0x6f): referência não definida para "DestruirHistograma"
+collect2: error: ld returned 1 exit status

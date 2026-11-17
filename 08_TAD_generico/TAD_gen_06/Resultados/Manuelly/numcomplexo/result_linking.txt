@@ -1,0 +1,24 @@
+/usr/bin/x86_64-linux-gnu-ld.bfd: Resultados/Manuelly/numcomplexo/main.o: na função "converte_inteiro_complexo":
+main.c:(.text+0x2f): referência não definida para "CriaNumComplexo"
+/usr/bin/x86_64-linux-gnu-ld.bfd: Resultados/Manuelly/numcomplexo/main.o: na função "converte_float_complexo":
+main.c:(.text+0x60): referência não definida para "CriaNumComplexo"
+/usr/bin/x86_64-linux-gnu-ld.bfd: Resultados/Manuelly/numcomplexo/main.o: na função "converte_double_complexo":
+main.c:(.text+0x9f): referência não definida para "CriaNumComplexo"
+/usr/bin/x86_64-linux-gnu-ld.bfd: Resultados/Manuelly/numcomplexo/main.o: na função "converte_char_complexo":
+main.c:(.text+0xeb): referência não definida para "CriaNumComplexo"
+/usr/bin/x86_64-linux-gnu-ld.bfd: Resultados/Manuelly/numcomplexo/main.o: na função "imprime_complexo":
+main.c:(.text+0x115): referência não definida para "ImprimeNumeroComplexo"
+/usr/bin/x86_64-linux-gnu-ld.bfd: Resultados/Manuelly/numcomplexo/main.o: na função "mult_cplx":
+main.c:(.text+0x212): referência não definida para "MultComplexos"
+/usr/bin/x86_64-linux-gnu-ld.bfd: Resultados/Manuelly/numcomplexo/main.o: na função "soma_cplx":
+main.c:(.text+0x237): referência não definida para "SomaComplexos"
+/usr/bin/x86_64-linux-gnu-ld.bfd: Resultados/Manuelly/numcomplexo/main.o: na função "main":
+main.c:(.text+0x306): referência não definida para "RetornaNumBytesComplexo"
+/usr/bin/x86_64-linux-gnu-ld.bfd: main.c:(.text+0x42c): referência não definida para "CriaNumComplexo"
+/usr/bin/x86_64-linux-gnu-ld.bfd: main.c:(.text+0x452): referência não definida para "DestroiNumeroComplexo"
+/usr/bin/x86_64-linux-gnu-ld.bfd: main.c:(.text+0x60d): referência não definida para "RetornaNumBytesComplexo"
+/usr/bin/x86_64-linux-gnu-ld.bfd: main.c:(.text+0x63f): referência não definida para "RetornaNumBytesComplexo"
+/usr/bin/x86_64-linux-gnu-ld.bfd: main.c:(.text+0x66e): referência não definida para "RetornaNumBytesComplexo"
+/usr/bin/x86_64-linux-gnu-ld.bfd: main.c:(.text+0x69c): referência não definida para "RetornaNumBytesComplexo"
+/usr/bin/x86_64-linux-gnu-ld.bfd: main.c:(.text+0x709): referência não definida para "RetornaNumBytesComplexo"
+collect2: error: ld returned 1 exit status

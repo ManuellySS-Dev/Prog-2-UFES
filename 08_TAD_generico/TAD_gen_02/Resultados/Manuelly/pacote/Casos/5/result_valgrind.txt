@@ -1,0 +1,6 @@
+==45090== Memcheck, a memory error detector
+==45090== Copyright (C) 2002-2024, and GNU GPL'd, by Julian Seward et al.
+==45090== Using Valgrind-3.26.0 and LibVEX; rerun with -h for copyright info
+==45090== Command: Resultados/Manuelly/pacote/prog Resultados/Manuelly/pacote/Casos/5
+==45090== Parent PID: 45089
+==45090== 

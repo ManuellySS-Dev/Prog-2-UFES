@@ -1,0 +1,15 @@
+==54515== Memcheck, a memory error detector
+==54515== Copyright (C) 2002-2024, and GNU GPL'd, by Julian Seward et al.
+==54515== Using Valgrind-3.26.0 and LibVEX; rerun with -h for copyright info
+==54515== Command: Resultados/Manuelly/completo/prog Resultados/Manuelly/completo/Casos/2
+==54515== Parent PID: 54514
+==54515== 
+==54515== 
+==54515== HEAP SUMMARY:
+==54515==     in use at exit: 0 bytes in 0 blocks
+==54515==   total heap usage: 0 allocs, 0 frees, 0 bytes allocated
+==54515== 
+==54515== All heap blocks were freed -- no leaks are possible
+==54515== 
+==54515== For lists of detected and suppressed errors, rerun with: -s
+==54515== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)

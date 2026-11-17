@@ -1,0 +1,6 @@
+==44998== Memcheck, a memory error detector
+==44998== Copyright (C) 2002-2024, and GNU GPL'd, by Julian Seward et al.
+==44998== Using Valgrind-3.26.0 and LibVEX; rerun with -h for copyright info
+==44998== Command: Resultados/Manuelly/pacote/prog Resultados/Manuelly/pacote/Casos/4
+==44998== Parent PID: 44997
+==44998== 
