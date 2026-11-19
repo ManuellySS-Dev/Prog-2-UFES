@@ -1,0 +1,4 @@
+aluno.c: In function ‘LeAluno’:
+aluno.c:29:9: warning: unused variable ‘tamanho_palavras’ [-Wunused-variable]
+   29 |     int tamanho_palavras = 0;
+      |         ^~~~~~~~~~~~~~~~
