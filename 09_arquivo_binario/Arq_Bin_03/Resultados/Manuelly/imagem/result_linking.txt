@@ -1,0 +1,6 @@
+/usr/bin/ld: Resultados/Manuelly/imagem/main.o: in function `main':
+main.c:(.text+0x3e): undefined reference to `LerImagem'
+/usr/bin/ld: main.c:(.text+0x4e): undefined reference to `ObterNumeroBytesLidos'
+/usr/bin/ld: main.c:(.text+0x70): undefined reference to `ImprimirImagem'
+/usr/bin/ld: main.c:(.text+0x7c): undefined reference to `DestruirImagem'
+collect2: error: ld returned 1 exit status
