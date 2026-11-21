@@ -1,0 +1,4 @@
+database.c: In function ‘CarregaDatabase’:
+database.c:93:50: warning: value computed is not used [-Wunused-value]
+   93 |     fread(&db->qtd_alunos, sizeof(int), 1, file) * sizeof(int);
+      |     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~
