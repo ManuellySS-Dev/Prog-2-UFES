@@ -105,60 +105,52 @@ void SalvaAlunosBinario(Aluno **alunos, char *fileName, int numeroAlunos){
 }
 
 void CarregaAlunosBinario(Aluno **alunos, char *fileName){
-FILE *file = fopen(fileName, "rb"); 
+    FILE *file = fopen(fileName, "rb"); 
+
     if (file == NULL) {
         printf("Erro ao abrir o arquivo para leitura!\n");
-        return;
+        exit(0);
     }
 
     int numeroAlunos;
     fread(&numeroAlunos, sizeof(int), 1, file);
 
-    for(int i = 0; i < numeroAlunos; i++) {
+for(int i = 0; i < numeroAlunos; i++) {
         int tam;
 
-        // 1. Lê o nome
         fread(&tam, sizeof(int), 1, file);
-        char *nome = (char*) malloc((tam + 1) * sizeof(char)); // +1 para o '\0'
+        char *nome = (char*) calloc(tam + 1, sizeof(char));
         fread(nome, sizeof(char), tam, file);
-        nome[tam] = '\0';
+        nome[tam] = '\0'; //adicionando com \0 no final porque nao coloquei \0 quando fui preencher o arquivo pro numero de bytes bater com a saida
 
-        // 2. Lê a data de nascimento
         fread(&tam, sizeof(int), 1, file);
-        char *dtNasc = (char*) malloc((tam + 1) * sizeof(char));
+        char *dtNasc = (char*) calloc(tam + 1, sizeof(char));
         fread(dtNasc, sizeof(char), tam, file);
         dtNasc[tam] = '\0';
 
-        // 3. Lê o curso
         fread(&tam, sizeof(int), 1, file);
-        char *cursoUfes = (char*) malloc((tam + 1) * sizeof(char));
+        char *cursoUfes = (char*) calloc(tam + 1, sizeof(char));
         fread(cursoUfes, sizeof(char), tam, file);
         cursoUfes[tam] = '\0';
 
-        // 4. Lê o período de ingresso
         fread(&tam, sizeof(int), 1, file);
-        char *periodoIngresso = (char*) malloc((tam + 1) * sizeof(char));
+        char *periodoIngresso = (char*) calloc(tam + 1, sizeof(char));
         fread(periodoIngresso, sizeof(char), tam, file);
         periodoIngresso[tam] = '\0';
 
-        // 5. Lê os dados numéricos
         int percConclusao;
         float CRA;
         fread(&percConclusao, sizeof(int), 1, file);
         fread(&CRA, sizeof(float), 1, file);
 
-        // --- EM VEZ DE CHAMAR CriaAluno (que usa strcpy e causa o erro), ---
-        // --- alocamos o aluno diretamente e atribuímos os ponteiros: ---
-        
-        alunos[i] = (Aluno*) malloc(sizeof(Aluno));
-        alunos[i]->nome = nome;             // Já está alocado e com '\0'
-        alunos[i]->dtNasc = dtNasc;         // Já está alocado e com '\0'
-        alunos[i]->cursoUfes = cursoUfes;   // Já está alocado e com '\0'
-        alunos[i]->periodoIngresso = periodoIngresso; // Já está alocado e com '\0'
+        alunos[i] = (Aluno*) calloc(1, sizeof(Aluno));
+        alunos[i]->nome = nome;
+        alunos[i]->dtNasc = dtNasc;
+        alunos[i]->cursoUfes = cursoUfes;
+        alunos[i]->periodoIngresso = periodoIngresso;
         alunos[i]->percConclusao = percConclusao;
         alunos[i]->CRA = CRA;
     }
-
     fclose(file);
 }
 

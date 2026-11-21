@@ -2,16 +2,16 @@ Arquivos Esperados Corretos: 3 de 3
 Pastas Compiladas Corretamente: 3 de 3 
 Pastas Linkadas Corretamente: 3 de 3
 Teste main
-  - Resultados corretos: 0 de 3
+  - Resultados corretos: 3 de 3
   - Valgrinds corretos: 3 de 3
-Nota de Manuelly para o teste main: 0
+Nota de Manuelly para o teste main: 
 Teste completo
-  - Resultados corretos: 0 de 3
+  - Resultados corretos: 3 de 3
   - Valgrinds corretos: 3 de 3
-Nota de Manuelly para o teste completo: 0
+Nota de Manuelly para o teste completo: 
 Teste aluno
   - Resultados corretos: 3 de 3
   - Valgrinds corretos: 3 de 3
-Nota de Manuelly para o teste aluno: 3.34
-Nota de Manuelly: 0+(3.34)+(0)+(0)
-Nota de Manuelly: 3.34
+Nota de Manuelly para o teste aluno: 
+Nota de Manuelly: 0+()+()+()
+Nota de Manuelly: 
