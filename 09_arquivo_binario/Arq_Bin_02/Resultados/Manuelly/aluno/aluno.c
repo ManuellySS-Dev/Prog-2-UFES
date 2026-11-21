@@ -25,14 +25,14 @@ void DestruirAluno(tAluno* aluno){
     free(aluno);
 }
 
-tAluno *LeAluno(FILE *arquivo_binario){
+tAluno *LeAluno(FILE *arquivo_binario){ //melhorar no aspecto programacao defensiva pra caso o arquivo retorne null parar o programa
     int tamanho_palavras = 0;
 
     char nome[101];
     fread(nome, sizeof(char), 100, arquivo_binario);
     nome[101] = '\0';
 
-    char dataNascimento[12];
+    char dataNascimento[12]; 
     fread(dataNascimento, sizeof(char), 11, arquivo_binario);
     dataNascimento[12] = '\0';
 

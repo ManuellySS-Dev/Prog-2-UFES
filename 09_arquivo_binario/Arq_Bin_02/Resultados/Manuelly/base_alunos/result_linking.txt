@@ -1,6 +1,0 @@
-/usr/bin/x86_64-linux-gnu-ld.bfd: Resultados/Manuelly/base_alunos/main.o: na função "main":
-main.c:(.text+0x1d): referência não definida para "CriarBaseAlunos"
-/usr/bin/x86_64-linux-gnu-ld.bfd: main.c:(.text+0x4f): referência não definida para "LerBaseAlunos"
-/usr/bin/x86_64-linux-gnu-ld.bfd: main.c:(.text+0x5b): referência não definida para "GetCoeficienteRendimentoMedioBaseAlunos"
-/usr/bin/x86_64-linux-gnu-ld.bfd: main.c:(.text+0x8d): referência não definida para "DestruirBaseAlunos"
-collect2: error: ld returned 1 exit status
